@@ -49,7 +49,8 @@ To tackle this project there are a few things that need to be considered:
 
 To start off, the network that was selected was the [NVIDIA deep nueral network](https://developer.nvidia.com/blog/deep-learning-self-driving-cars/).  I selected this because it is a simple yet powerful nueral network where I do not have to use a really powerful graphics card to train on.  Also it is easier to implement when compared to other models.
 
-![](readme_files/model.PNG)
+![](readme_files/model.png)
+
 
 #### 2. Data Collected  
 
