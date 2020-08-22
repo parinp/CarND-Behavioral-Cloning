@@ -110,3 +110,9 @@ I was able to produce 3 working models.  The first model `model1.h5` runs the be
 The first working model's video is labelled as `run1.mp4` while the NVIDIA model is named as `run2.mp4`.  We can see that both models work but the latter will oscillate a lot more than the former.
 
 ### Reflection
+
+As for this project, I have spent countless nights building the model.  The hardest part was not the model itself but the data.  Great data needs to be collected and this took a great deal of time.  At first I was running the simulator to record the test run at max throttle.  Later I found to using a low speed to stay close to the cetner as possible.  This took more time but was very much worth it.
+
+There are many methods to preprocessing the image.  I chose to crop out the parts which are not part of the lane and then resize them to (66,200) to train the model faster.  However, I stuck with the RGB color space rather than YUV color space.  Also, made the data less skewed in order to remove all biasis in the model.  Lastly, I augmented to images with `ImageDataGenerator()` in order to increase the robustness of the model.
+
+In conclusion, the results were amazing and I was able to complete a lap around the track shown in `run2.mp4`.  
