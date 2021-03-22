@@ -116,14 +116,4 @@ As for this project, I have spent countless nights building the model.  The hard
 
 There are many methods to preprocessing the image.  I chose to crop out the parts which are not part of the lane and then resize them to (66,200) to train the model faster.  However, I stuck with the RGB color space rather than YUV color space.  Also, made the data less skewed in order to remove all biasis in the model.  Lastly, I augmented to images with `ImageDataGenerator()` in order to increase the robustness of the model.
 
-In conclusion, the results were amazing and I was able to complete a lap around the track shown in `run2.mp4`.  
-
-<iframe
-    width="640"
-    height="480"
-    src="https://youtu.be/6ZamldnT3aE"
-    frameborder="0"
-    allow="autoplay; encrypted-media"
-    allowfullscreen
->
-</iframe>
+In conclusion, the results were amazing and I was able to complete a lap around the track shown in `run2.mp4`. 
